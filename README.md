@@ -34,3 +34,12 @@ Running the tests
 You can check whether your script meets the requirements by running:
 
     pipenv run pytest
+
+Follow up exercises
+-------------------
+
+Once you have completed this exercise you might like to try one of the
+following:
+
+1. Import a list of names to sort from a file
+2. Secondary sorting of names by second vowel (as suggested in a footnote by my grandfather)
