@@ -16,19 +16,25 @@ If you haven't created a python virtualenv before there is a handy guide [here](
 
 In the terminal navigate to this folder then run the following two commands:
 
-    mkvirtualenv vowellator
+    python3 -m venv env/vowellator
+    source env/vowellator/bin/activate
     pip install -r requirements.txt
 
 Running the script
 ------------------
 
-To run the script run the following:
+To run the script do the following:
 
-    python vowellator.py "toller edwards aldrich"
+    add the file of names you wish to sort to the 'namefiles' folder
+    E.g. call it 'namelist'
+    
+    Run the following:
+
+    `python vowellator.py namelist`
 
 Running the tests
 -----------------
 
 You can check whether your script meets the requirements by running:
 
-    pytest
+    `pytest`
