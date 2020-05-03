@@ -29,11 +29,11 @@ Running the script
 To run the script do the following:
 
 add the file of names you wish to sort to the 'namefiles' folder
-E.g. call it 'namelist'
+E.g. call it 'namelist.csv'
 
 Run the following:
 
-    python vowellator.py namelist
+    python vowellator.py namelist.csv
 
 Running the tests
 -----------------
