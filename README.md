@@ -38,7 +38,7 @@ You can check whether your script meets the requirements by running:
 Follow up exercises
 -------------------
 
-Once you have completed this exercise you might like to try one of the
+Once you have completed this exercise you might like to try the
 following:
 
 1. Import a list of names to sort from a file
