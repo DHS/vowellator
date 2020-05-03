@@ -7,11 +7,12 @@ EXAMPLE_CSV = "example.csv"
 
 # This function is where you will work your magic!
 #
-# Input: the 'names' argument should be a string containing a space-separated
-# list of names eg. "matthews booth andrews"
+# Input: the 'names' argument passed to the function should be a string
+# containing a space-separated list of names
+# eg. "toller edwards aldrich"
 #
 # Output: should return a space separated string of names ordered
-# by first vowel e.g. "andrews matthews booth"
+# by first vowel e.g. "aldrich edwards toller"
 # Exercise: How should names that contain the same first vowel be returned?
 #
 def vowellate(names=None):    
