@@ -1,5 +1,6 @@
 import sys
 
+
 # This function is where you will work your magic!
 #
 # Input: the 'names' argument passed to the function should be a string
@@ -25,6 +26,7 @@ def vowellate(names=None):
 # Run the vowellate function and print the result
 def run(names=None):
     print(vowellate(names))
+
 
 # If there is a command line argument then pass it in
 if __name__ == '__main__':
