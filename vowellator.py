@@ -2,10 +2,13 @@ import sys
 
 # This function is where you will work your magic!
 #
-# Input: the 'names' argument should be a string containing a space-separated
-# list of names eg. "matthews booth andrews"
+# Input: the 'names' argument passed to the function should be a string
+# containing a space-separated list of names
+# eg. "toller edwards aldrich"
 #
-# Output: should return a space separated string of names ordered by first vowel
+# Output: the function should return a string containing a
+# space-separated list of names ordered by first vowel
+# eg. "aldrich edwards toller"
 #
 def vowellate(names=None):
 
@@ -16,10 +19,10 @@ def vowellate(names=None):
 # You can ignore the code below here.
 # It just does the following:
 #  1. Check for a list of names passed in via the command line
-#  2. Runs the vowellate method above
-#  3. Prints the result
+#  2. Run the vowellate function
+#  3. Print the result
 
-# Run the vowellate method and print the result
+# Run the vowellate function and print the result
 def run(names=None):
     print(vowellate(names))
 

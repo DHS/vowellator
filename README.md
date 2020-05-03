@@ -1,13 +1,15 @@
 Vowellator
 ==========
 
-This is a silly little Python exercise. My grandfather was a family tree enthusiast.
-He was also a little eccentric. At some point he decided to write a list of surnames found
-throughout the family tree ordered by first vowel. As you do.
+This is a silly little Python exercise. My grandfather was a family tree
+enthusiast. He was also a little eccentric. At some point he decided to
+write a list of surnames found throughout the family tree ordered by
+first vowel. As you do.
 
-Thus your challenge is to write a little Python script that will sort a list of names in
-order of their first vowel. See below for instuctions on how to setup a virtualenv for this
-and how to run the script and run the tests.
+Thus your challenge is to write a little Python function that will sort
+a list of names in order of their first vowel. See below for
+instructions on how to setup the virtualenv, how to run the script and
+how to run the tests to check your work.
 
 Setting up the virtual env
 --------------------------
