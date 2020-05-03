@@ -25,16 +25,16 @@ Running the script
 
 To run the script do the following:
 
-    add the file of names you wish to sort to the 'namefiles' folder
-    E.g. call it 'namelist'
-    
-    Run the following:
+add the file of names you wish to sort to the 'namefiles' folder
+E.g. call it 'namelist'
 
-    `python vowellator.py namelist`
+Run the following:
+
+    python vowellator.py namelist
 
 Running the tests
 -----------------
 
 You can check whether your script meets the requirements by running:
 
-    `pytest`
+    pytest
