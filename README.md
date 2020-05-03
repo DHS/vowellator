@@ -14,23 +14,23 @@ how to run the tests to check your work.
 Setting up the virtual env
 --------------------------
 
-If you haven't created a python virtualenv before there is a handy guide [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment).
+This project requires [Python](https://www.python.org/) (3.8) and [pipenv](https://pipenv.pypa.io/en/latest/)
+so you'll need to install those first.
 
-In the terminal navigate to this folder then run the following two commands:
+In the terminal navigate to this folder then run the following command:
 
-    mkvirtualenv vowellator
-    pip install -r requirements.txt
+    pipenv install
 
 Running the script
 ------------------
 
-To run the script run the following:
+To run the script use the following command:
 
-    python vowellator.py "toller edwards aldrich"
+    pipenv run python vowellator.py "toller edwards aldrich"
 
 Running the tests
 -----------------
 
 You can check whether your script meets the requirements by running:
 
-    pytest
+    pipenv run pytest
