@@ -1,7 +1,7 @@
 import csv
 import sys
 
-# This specifies the csv name of the file that will contain the names to use.
+# This specifies the name of the example file, if no filename is provided.
 # It can be changed as desired
 EXAMPLE_CSV = "example.csv"
 
