@@ -43,3 +43,4 @@ following:
 
 1. Import a list of names to sort from a file
 2. Secondary sorting of names by second vowel (as suggested in a footnote by my grandfather)
+3. Recursive sorting of names by all available vowels
