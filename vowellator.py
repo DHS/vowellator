@@ -11,7 +11,7 @@ import sys
 # space-separated list of names ordered by first vowel
 # eg. "aldrich edwards toller"
 #
-def vowellate(names=None):
+def vowellate(names_input=None):
 
     # This is where you should write your code!
     return "Hello world"
